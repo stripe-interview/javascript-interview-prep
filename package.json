@@ -1,0 +1,16 @@
+{
+    "name": "stripe-javascript-interview-prep",
+    "version": "1.0.0",
+    "description": "A simple example of using node-fetch",
+    "main": "hello-world.js",
+    "scripts": {
+      "start": "node hello-world.js"
+    },
+    "dependencies": {
+      "node-fetch": "^3.2.0"
+    },
+    "engines": {
+      "node": ">=18.x"
+    }
+  }
+  
