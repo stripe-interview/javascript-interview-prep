@@ -12,7 +12,7 @@ git clone https://github.com/stripe-interview/javascript-interview-prep.git
 
 # JavaScript Toolchain
 
-We will be working with Node.js (Long term support vesrsions 18 or later). If you haven't installed Node.js yet, please follow the Node.js [installation guide](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
+We will be working with Node.js (Long term support versions 18 or later). If you haven't installed Node.js yet, please follow the Node.js [installation guide](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
 
 ## Validate your toolchain
 
