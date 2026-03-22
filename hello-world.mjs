@@ -1,20 +1,20 @@
 import fetch from 'node-fetch';
 
 // URL to fetch sample JSON data
-const url = 'https://jsonplaceholder.typicode.com/posts';
+const url = 'https://dummyjson.com/users';
 
 async function fetchData() {
     try {
         const response = await fetch(url);
-        
+
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
 
         const data = await response.json();
 
-        // Accessing the title of the second post
-        var demoValue = data[1].title;  // Adjust based on fetched data structure
+        // Accessing the name of the second user
+        var demoValue = data.users[1].firstName;
         console.log(`Demo Value: ${demoValue}`);
         console.log("Your environment is setup correctly!")
     } catch (error) {
